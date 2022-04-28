@@ -20,7 +20,7 @@ const greeting = {
     subTitle3: "Project Manager.",
 
     resumeLink:
-    "https://drive.google.com/file/d/1ri53blMbCWS0lKLoL6-ce6eLM5C1S3Q1/view?usp=sharing",
+    "https://drive.google.com/file/d/1UGLJTYMudfwcOndR7wRMTajIm8gGxhn4/view?usp=sharing",
   mail: "mailto:eduarte.cedric@gmail.com",
 };
 
@@ -578,7 +578,7 @@ const experience = {
           duration: "May 2013 - Jan 2016",
           location: "Makati, Philippines",
           description:
-            "Kambi Group Plc is a B2B provider of sports betting services to licensed B2C gaming operators. The company provides a software platform with front end user interface, odds compiling, customer intelligence and risk management.",
+            "Sports betting company with focus on Asian markets.",
           color: "#2962FF",
           responsibilities: [
             "⚡ Monitor pre-match and live odds of the offered content.",
