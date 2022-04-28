@@ -20,7 +20,7 @@ const greeting = {
     subTitle3: "Project Manager.",
 
     resumeLink:
-    "https://drive.google.com/file/d/1UGLJTYMudfwcOndR7wRMTajIm8gGxhn4/view?usp=sharing",
+    "https://drive.google.com/file/d/1K9Ql1lm2cejGT_brXIEMRNPkf-BnHI5h/view?usp=sharing",
   mail: "mailto:eduarte.cedric@gmail.com",
 };
 
