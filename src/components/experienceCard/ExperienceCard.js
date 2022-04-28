@@ -12,18 +12,18 @@ function ExperienceCard(props) {
         backgroundColor: theme.imageDark,
       }}
     >
-      <div className="experience-card-logo-div">
+      {/* <div className="experience-card-logo-div">
         <img
           className="experience-card-logo"
           src={require(`../../assests/images/${experience["logo_path"]}`)}
           alt=""
         />
-      </div>
+      </div> */}
       <div className="experience-card-body-div">
         <div className="experience-card-header-div">
           <div className="experience-card-heading-left">
             <h3 className="experience-card-title" style={{ color: theme.text }}>
-              {experience["title"]}
+              {experience["company"]}
             </h3>
             <p
               className="experience-card-company"
@@ -34,7 +34,7 @@ function ExperienceCard(props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {experience["company"]}
+                {experience["company_url"]}
               </a>
             </p>
           </div>
@@ -59,6 +59,19 @@ function ExperienceCard(props) {
         >
           {experience["description"]}
         </p>
+          <div>
+                {experience.responsibilities.map((responsibility, index) => {
+                  return (
+                    <p
+                      className="experience-card-description"
+                      key={index}
+                      style={{ color: theme.text }}
+                    >
+                      {responsibility}
+                    </p>
+                  );
+                })}
+          </div>      
       </div>
     </div>
   );

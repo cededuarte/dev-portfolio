@@ -5,6 +5,7 @@ import { Fade } from "react-reveal";
 import DataScienceImg from "../../containers/skills/DataScienceImg";
 import FullStackImg from "../../containers/skills/FullStackImg";
 import CloudInfraImg from "../../containers/skills/CloudInfraImg";
+import Top from "../../containers/topbutton/Top";
 // import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
@@ -20,7 +21,7 @@ function GetSkillSvg(props) {
 function StackProgress(props, index) {
     const theme = props.theme;
     return (
-      
+      <>
       <div key={index} className="skills-container">
 
         
@@ -54,8 +55,8 @@ function StackProgress(props, index) {
           </div>
          </Fade>
       </div>
-     
-  
+      <Top theme={props.theme} />
+      </>
 
       );
     }

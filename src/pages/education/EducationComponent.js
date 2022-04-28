@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import Top from "../../containers/topbutton/Top";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
@@ -38,6 +39,7 @@ function Education(props) {
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
+      <Top theme={props.theme} />
       <Footer theme={props.theme} />
     </div>
   );

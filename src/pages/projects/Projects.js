@@ -7,6 +7,7 @@ import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import Top from "../../containers/topbutton/Top";
 
 function Projects(props) {
   const theme = props.theme;
@@ -52,7 +53,7 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
+      {/* <a
         {...styles}
         className="general-btn"
         href={socialMediaLinks.github}
@@ -62,7 +63,8 @@ function Projects(props) {
         More Projects (Github)
       </a>
       <br />
-      <br />
+      <br /> */}
+       <Top theme={props.theme} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

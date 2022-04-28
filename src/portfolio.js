@@ -17,7 +17,7 @@ const greeting = {
     subTitle:"Service Delivery Officer | Sr Logistics Lead.",
     subTitle1: "Full Stack Web Developer.",
     subTitle2: "Certified Lean Six Sigma BBelt Practioner.",
-    subTitle3: "Project Coordinator.",
+    subTitle3: "Project Manager.",
 
     resumeLink:
     "https://drive.google.com/file/d/1ri53blMbCWS0lKLoL6-ce6eLM5C1S3Q1/view?usp=sharing",
@@ -42,17 +42,9 @@ const skills = {
       title2: "Project Management",
       fileName: "FullStackImg",
       skills: [
-        "🚀 AS A SERVICE DELIVERY OFFICER | SENIOR  LOGISTICS LEAD: ",
-        "⚡ Responsible for overseeing and facilitating service delivery in an effective and cost-efficient manner.",
-        "⚡ Lead personnels' day to day tasks and serve as point of contact for escalations. ",
-        "🚀 AS A WEB DEVELOPER:",
-        "⚡ Build responsive website front end using ReactJS.",
-        "⚡ Build team's internal web tools to increase productivity and efficiency.",
-        "🚀 AS A PROJECT COORDINATOR: ",
-        "⚡ Participate in project design, scheduling and coordinate with all the stakeholders.",
-        "⚡ Identify project scope, boundaries and value stream mapping.",
-        "⚡ Monitor and track project milestones and ",
-
+        "🚀 6+ years in Service delivery and workforce management.",
+        "🚀 4+ years in Project management.",
+        "🚀 3+ years in Web development.",
       ],
       softwareSkills: [
         {
@@ -77,6 +69,20 @@ const skills = {
             color: "#0275d8",
           },
         },
+        {
+          skillName: "MaterialUI",
+          fontAwesomeClassname: "logos:material-ui",
+          style: {
+            color: "#0275d8",
+          },
+        },      
+        {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
+          style: {
+            color: "#0275d8",
+          },
+        },    
         {
           skillName: "SASS",
           fontAwesomeClassname: "simple-icons:sass",
@@ -114,6 +120,15 @@ const skills = {
           style: {
             color: "#FFFFFF",
             backgroundColor: "#1D1D1D",
+            borderRadius: "50%",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "tabler:brand-react-native",
+          style: {
+            color: "#FFFFFF",
+            backgroundColor: "#61DAFB",
             borderRadius: "50%",
           },
         },
@@ -176,6 +191,13 @@ const skills = {
           },
         },
         {
+          skillName: "Vercel",
+          fontAwesomeClassname: "tabler:brand-vercel",
+          style: {
+            color: "#ccc",
+          },
+        },
+        {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
@@ -219,6 +241,7 @@ const skills = {
             color: "#008FE4",
           },
         },  
+
 
       
       ],
@@ -440,7 +463,7 @@ const certifications = {
       title: "Full Stack Web Development Certificate",
       subtitle: "Zuitt Web Development Bootcamp",
       logo_path: "zuitt_logo.png",
-      certificate_link: "",
+      certificate_link: "https://drive.google.com/file/d/1Lmy5n9ha40R2poqCt8mWwINiYbETWjYa/view?usp=sharing",
       alt_name: "Zuitt",
       cert_number: "",
       color_code: "#C5E2EE",
@@ -469,123 +492,104 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+  title: "Professional Experience",
+  // subtitle: "Work, Internship and Volunteership",
+  // description:
+  //   "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Service Deliver Officer | Senior Logistics Lead",
       experiences: [
         {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
+          title: "",
+          company: "Kambi Philippines Inc.",
+          company_url: "https://www.kambi.com//",
+          logo_path: "Kambi.png",
+          duration: "July 2016 - Present",
+          location: "Makati, Philippines",
           description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+            "Software development company and service provider to the iGaming industry.",
           color: "#2962FF",
+          responsibilities: [
+            "⚡ Responsible for overseeing services are being seamlessly delivered.",
+            "⚡ Maintain high performance levels for service-related processes, and implement improvement activities wherever necessary.",
+            "⚡ Recommend methods of improvement and seeing that actions are implemented on time for service delivery upgrades",
+            "⚡ Lead personnels' day to day tasks and serve as point of contact for escalations. ",
+            "⚡ Facilitate the operations in an effective and timely manner. ", 
+            "⚡ Manage, monitor and forecast schedules of traders and analysts. ",  
+            "⚡ Conduct, manage, and review trainings for new hires.  ",             
+          ]
         },
       ],
     },
     {
-      title: "Internships",
+      title: "Project Manager",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Work From Home",
+          title: "",
+          company: "Kambi Philippines Inc.",
+          company_url: "https://www.kambi.com//",
+          logo_path: "Kambi.png",
+          duration: "July 2016 - Present",
+          location: "Makati, Philippines",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
-          color: "#ee3c26",
-        },
-        {
-          title: "Android App Developer Intern",
-          company: "IAS4Sure",
-          company_url: " ",
-          logo_path: "buld.jpg",
-          duration: "December 2019 - February 2020",
-          location: "Work From Home",
-          description:
-            "Internship task was to make a native Android application. ",
-          color: "#0071C5",
-        },
-        {
-          title: "Web Developer",
-          company: "Wrighter Writing Solutions",
-          company_url: " ",
-          logo_path: "wrighter.jpg",
-          duration: "August 2020",
-          location: "",
-          description: "Develop a website using PHP and jQuery.",
-          color: "#56A4D3",
-        },
-        {
-          title: "Front-End Developer",
-          company: "VJ TechServe",
-          company_url: " ",
-          logo_path: "vjt.png",
-          duration: "September 2020",
-          location: "",
-          description: "Develop a portfolio website using ReactJS",
-          color: "#800000",
+            "Software development company and service provider to the iGaming industry.",
+          color: "#2962FF",
+          responsibilities: [
+            "⚡ Responsible for implementing and completing the project.",
+            "⚡ Participate in project design, scheduling and coordinate with all the stakeholders.",
+            "⚡ Identify project scope, boundaries and value stream mapping.",
+            "⚡ Monitor and track project milestones.",
+          ]
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Second Line Support Officer",
       experiences: [
         {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
-          location: " ",
+          title: "",
+          company: "Everlounge Inc.",
+          company_url: "https://everlounge.net//",
+          logo_path: "None",
+          duration: "Jan 2016 - Jul 2016",
+          location: "Makati, Philippines",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
-          location: " ",
-          description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
-          color: "#D83B01",
-        },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
-          location: " ",
-          description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
-          color: "#D83B01",
+            "IT consultancy company providing a wide array of solutions specializing in producing online platforms services.",
+          color: "#2962FF",
+          responsibilities: [
+            "⚡ Responsible for overseeing sportsbook operations.",
+            "⚡ Handle and resolve complaints from operators or clients.",
+            "⚡ Assist in planning and handling weekly and monthly targets.",
+
+          ]
         },
       ],
-    },
+    },   
+    {
+      title: "Assistant Bookmaker",
+      experiences: [
+        {
+          title: "",
+          company: "Yew Tree Services Inc.",
+          company_url: "https://www.linkedin.com/company/yew-tree-services-inc-/",
+          logo_path: "Kambi.png",
+          duration: "May 2013 - Jan 2016",
+          location: "Makati, Philippines",
+          description:
+            "Kambi Group Plc is a B2B provider of sports betting services to licensed B2C gaming operators. The company provides a software platform with front end user interface, odds compiling, customer intelligence and risk management.",
+          color: "#2962FF",
+          responsibilities: [
+            "⚡ Monitor pre-match and live odds of the offered content.",
+            "⚡ Observe odds market movements and react accordingly. ",
+            "⚡ Manage and monitor risk of worldwide sporting events.",
+            "⚡ Ensure that markets are resulted correctly and in a timely manner.",
+            "⚡ Analyze customer betting behavior and betting patterns.",
+          ]
+        },
+      ],
+    },    
   ],
 };
 
@@ -593,7 +597,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest tools and technology. Below are some of my projects. Please note that not all of my projects were pushed on GitHub or Gitlab yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -617,312 +621,343 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "50",
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description: "You personal journaling companion, goals & daily challenges!",
+      id: "86",
+      name: "Airbnb Clone",
+      url: "https://airbnb-clone-cededuarte.vercel.app/",
+      description: "Airbnb clone - designed and developed with NextJS and tailwind with date range picker and mapbox functionalities",
       languages: [
+
+
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NextJS",
+          iconifyClass: "logos:nextjs",
+        },
+        {
+          name: "Vercel",
+          iconifyClass: "ion:logo-vercel",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "logos:tailwindcss-icon",
+        },        
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+        },        
+      ],
+    },    
+    {
+      id: "51",
+      name: "Facebook Clone",
+      url: "https://facebook-clone-332e6.web.app",
+      description: "Facebook clone with complete functionalities such as login, logout, posts, stories, DB usage and added layer of Google Authentication and React Context API",
+      languages: [
+
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
-        },
+        },     
+        {
+          name: "MaterialUI",
+          iconifyClass: "logos:material-ui",
+        },    
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+        }, 
       ],
     },
     {
       id: "51",
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      id: "0",
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "Cab Security System",
-      url: " ",
-      description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
+      name: "Netflix Clone",
+      url: "https://netflix-clone-by-ced-cededuarte.vercel.app/",
+      description: "Rendered with styled components, firebase for DB and complete functionalities - sign up, sign in, sign out",
       languages: [
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
         {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
-      languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
           name: "Firebase",
           iconifyClass: "logos-firebase",
-        },
+        },     
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
+          name: "Vercel",
+          iconifyClass: "ion:logo-vercel",
+        },    
+        {
+          name: "Styled Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        }, 
       ],
     },
     {
-      id: "5",
-      name: "Project Health Card",
-      url: "",
-      description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+      id: "63",
+      name: "WhatsApp Clone",
+      url: "https://whatsapp-clone-339aa.web.app/",
+      description: "WhatsApp clone with complete functionalities - Google Auth for logging in and authentication, sending and receiving messages in real time.",
       languages: [
         {
           name: "JavaScript",
-          iconifyClass: "logos-java",
+          iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
         },
         {
+          name: "MaterialUI",
+          iconifyClass: "logos:material-ui",
+        }, 
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+        },        
+      ],
+    },
+    {
+      id: "64",
+      name: "Spotify Clone",
+      url: "https://spotify-clone-162a4.web.app/",
+      description: "Spotify clone - Google Auth for logging in and authentication and Spotify API to pull up registered user's playlists.",
+      languages: [
+
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "MaterialUI",
+          iconifyClass: "logos:material-ui",
+        },         
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+        },        
+      ],
+    },
+    {
+      id: "64",
+      name: "Amazon Clone",
+      url: "https://clone2-4b964.web.app/",
+      description: "Fully functioning Ecommerce app with registration, login, authentication, shopping cart and order management, credit card payment gateway through Stripe and geolocation identifier for deliveries",
+      languages: [
+
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "MaterialUI",
+          iconifyClass: "logos:material-ui",
+        },         
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },        
+      ],
+    },
+    {
+      id: "64",
+      name: "Covid-19 Tracker",
+      url: "https://covid-19-tracker-985cb.web.app/",
+      description: "Covid-19 Tracker from disease.sh API - latest tally of today and total Deaths, Recovered, Active cases worldwwide and per county with heat map integration",
+      languages: [
+
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "MaterialUI",
+          iconifyClass: "logos:material-ui",
+        },         
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+        },        
+      ],
+    },
+    {
+      id: "64",
+      name: "Loaded Fitness Camp Booking System",
+      url: "https://loadedfitcamp.herokuapp.com/",
+      description: "First project with MERN stack, with complete CRUD operations for fitness session reservation system",
+      languages: [
+
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Heroku",
+          iconifyClass: "logos-heroku-icon",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },         
         {
           name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },   
+        {
+          name: "GraphQL",
+          iconifyClass: "logos:graphql",
+        },        
       ],
     },
     {
-      id: "6",
-      name: "Food Classifier",
-      url: " ",
-      description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+      id: "64",
+      name: "Virtual Law Library",
+      url: "https://casedigestscompiler2.herokuapp.com/",
+      description: "Virtual Library for Law students to pull up jurisprudence from different law subjects",
+      languages: [
+
+        {
+          name: "Laravel",
+          iconifyClass: "logos-laravel",
+        },
+        {
+          name: "PHP",
+          iconifyClass: "logos:php",
+        },
+        {
+          name: "Heroku",
+          iconifyClass: "logos-heroku-icon",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },         
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },   
+        {
+          name: "MySQL",
+          iconifyClass: "logos:mysql-icon",
+        },        
+      ],
+    },
+
+    {
+      id: "0",
+      name: "React Portfolio",
+      url: "https://cededuarte.github.io/portfolio/",
+      description: "Old Portfolio",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Dart",
-          iconifyClass: "logos-dart",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
       ],
     },
+
     {
-      id: "7",
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+      id: "0",
+      name: "String Formatter",
+      url: "https://cededuarte.github.io/LogExecTools/straightforecast.html",
+      description: "Team internal tools  - 8 string formatter tools",
       languages: [
+        {
+          name: "HTML",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+      ],
+    },    
+    {
+      id: "0",
+      name: "Sports Webscraper",
+      url: "https://gitlab.com/batch44/eduarte-cedric/sports-webscraper",
+      description: "Player stats web scraper",
+      languages: [
+        {
+          name: "HTML",
+          iconifyClass: "logos:html-5",
+        },
         {
           name: "Python",
-          iconifyClass: "logos-python",
+          iconifyClass: "logos:python",
         },
         {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          name: "Flask",
+          iconifyClass: "logos:flask",
         },
       ],
-    },
+    },  
     {
-      id: "8",
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
+      id: "0",
+      name: "BMR Calculator",
+      url: "https://eduarte.cedric.gitlab.io/bmr-calculator/",
+      description: "First team project in Javascript",
       languages: [
         {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
+          name: "HTML",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "Javascipt",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
         },
       ],
-    },
-    {
-      id: "9",
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
+    },     
   ],
 };
 

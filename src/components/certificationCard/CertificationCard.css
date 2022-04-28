@@ -21,7 +21,8 @@
   margin:auto;
   width: 100%;
   position: relative;
-  height: 90px;
+  height: 12rem;
+  object-fit: cover;
 }
 
 .cert-body {
