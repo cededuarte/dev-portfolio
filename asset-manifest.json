@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio/static/css/main.0b55a581.chunk.css",
+    "main.js": "/dev-portfolio/static/js/main.7254ae25.chunk.js",
+    "main.js.map": "/dev-portfolio/static/js/main.7254ae25.chunk.js.map",
+    "runtime-main.js": "/dev-portfolio/static/js/runtime-main.ca5f517f.js",
+    "runtime-main.js.map": "/dev-portfolio/static/js/runtime-main.ca5f517f.js.map",
+    "static/js/2.b5bfd7f2.chunk.js": "/dev-portfolio/static/js/2.b5bfd7f2.chunk.js",
+    "static/js/2.b5bfd7f2.chunk.js.map": "/dev-portfolio/static/js/2.b5bfd7f2.chunk.js.map",
+    "index.html": "/dev-portfolio/index.html",
+    "precache-manifest.b9923caab9af9ac62e2cdbcf377aa4ec.js": "/dev-portfolio/precache-manifest.b9923caab9af9ac62e2cdbcf377aa4ec.js",
+    "service-worker.js": "/dev-portfolio/service-worker.js",
+    "static/css/main.0b55a581.chunk.css.map": "/dev-portfolio/static/css/main.0b55a581.chunk.css.map",
+    "static/js/2.b5bfd7f2.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.b5bfd7f2.chunk.js.LICENSE.txt",
+    "static/media/100.jpg": "/dev-portfolio/static/media/100.53c38366.jpg",
+    "static/media/100.png": "/dev-portfolio/static/media/100.8f1df092.png",
+    "static/media/index.css": "/dev-portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Kambi.png": "/dev-portfolio/static/media/Kambi.eae2e51c.png",
+    "static/media/buld.jpg": "/dev-portfolio/static/media/buld.a1051a22.jpg",
+    "static/media/codeInLogo.png": "/dev-portfolio/static/media/codeInLogo.b3685be8.png",
+    "static/media/csc_logo.png": "/dev-portfolio/static/media/csc_logo.73c6ea0c.png",
+    "static/media/deeplearning_ai_logo.png": "/dev-portfolio/static/media/deeplearning_ai_logo.7a9b2eb0.png",
+    "static/media/all.css": "/dev-portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/googleAssistant.jpg": "/dev-portfolio/static/media/googleAssistant.0c8a4c11.jpg",
+    "static/media/imc_logo.png": "/dev-portfolio/static/media/imc_logo.11e007de.png",
+    "static/media/ino.png": "/dev-portfolio/static/media/ino.ccf88661.png",
+    "static/media/intel_logo.jpg": "/dev-portfolio/static/media/intel_logo.29152cf7.jpg",
+    "static/media/li_logo.png": "/dev-portfolio/static/media/li_logo.1b1bfa46.png",
+    "static/media/quicko.jpg": "/dev-portfolio/static/media/quicko.e56f163e.jpg",
+    "static/media/sal.png": "/dev-portfolio/static/media/sal.62ac09c3.png",
+    "static/media/stanford_logo.png": "/dev-portfolio/static/media/stanford_logo.da0e7c80.png",
+    "static/media/vjt.png": "/dev-portfolio/static/media/vjt.c54faf17.png",
+    "static/media/wrighter.jpg": "/dev-portfolio/static/media/wrighter.02fdae43.jpg",
+    "static/media/zuitt_logo.png": "/dev-portfolio/static/media/zuitt_logo.1364b235.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca5f517f.js",
+    "static/js/2.b5bfd7f2.chunk.js",
+    "static/css/main.0b55a581.chunk.css",
+    "static/js/main.7254ae25.chunk.js"
+  ]
+}
