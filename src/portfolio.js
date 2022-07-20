@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "<Cedric Angelo Eduarte />",
   nickname: "Ced",
   full_name: "Cedric Angelo Eduarte",
-    subTitle:"Service Delivery Officer | Sr Logistics Lead.",
+    subTitle:"Web Software Engineer.",
     subTitle1: "Full Stack Web Developer.",
     subTitle2: "Certified Lean Six Sigma BBelt Practioner.",
     subTitle3: "Project Manager.",
@@ -498,6 +498,37 @@ const experience = {
   //   "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
+    {
+      title: "Web Software Engineer | Senior React Developer",
+      experiences: [
+        {
+          title: "",
+          company: "Viyahe(Philippines) Inc.",
+          company_url: "https://viyahe.com/",
+          logo_path: "Kambi.png",
+          duration: "July 2022 - Present",
+          location: "Makati, Philippines",
+          description:
+            "Software development company in travel arrangement services.",
+          color: "#2962FF",
+          responsibilities: [
+            "⚡ Develop new UI applications and or features from wireframes, user stories, or high fidelity models.",
+            "⚡ Ensure the best performance and user experience of the application",
+            "⚡ Research, propose, and develop libraries that promote the reusability, scalability, and extensibility of code which applications will be build upon",
+            "⚡ Generate documentation necessary to integrate their work into other projects.",
+            "⚡ Design and implement with sufficient use of object-oriented design principles, abstraction, and separation of concerns.", 
+            "⚡ Writing organized, testable, extensible, scalable, code and documentation.",  
+            "⚡ Address issues, concerns, bugs, that arise fro their scope of responsibilities.", 
+            "⚡ Automate the testing, building, and deployment processes through CI/CD practices.",
+            "⚡ Release Planning, timing, or orchestration and execution.",  
+            "⚡ Release documentation and notification.",
+            "⚡ Advice on matthers related to their scope of responsibilities.",
+            "⚡ Conduct or facilitate Scrum duties assigned by the department.",
+          ]
+        },
+      ],
+    },
+
     {
       title: "Service Deliver Officer | Senior Logistics Lead",
       experiences: [
