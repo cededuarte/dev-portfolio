@@ -924,7 +924,7 @@ const projects = {
       id: "0",
       name: "React Portfolio",
       url: "https://cededuarte.github.io/portfolio/",
-      description: "Old Portfolio",
+      description: "Portfolio",
       languages: [
         {
           name: "ReactJS",
